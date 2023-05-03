@@ -14,10 +14,18 @@
       h1#abc {
         color: cornflowerblue;
       }
+      h1#123 {
+        font-size: 22pt;
+        color: tomato;
+      }
     </style>
     <style>
       h2 {
       	color: rgb(255, 80, 0);
+      }
+      h2#abc {
+        font-size: 16pt;
+        color: darkslateblue;
       }
     </style>
     <style>
@@ -27,13 +35,8 @@
       }
     </style>
     <style>
-      b#123 {
-        color: orange;
-      }
-    </style>
-    <style>
       li {
-        color: mediumaquamarine;
+        color: mediumseagreen;
       }
     </style>
     <style>
@@ -44,6 +47,11 @@
     <style>
       td {
         color: indigo;
+      }
+    </style>
+    <style>
+      u {
+        color: black;
       }
     </style>
         
@@ -110,10 +118,10 @@
   </table>
  </ol>
 
-<h1><b>My favorite things to do in my free time</h1></b>
-<h2>My favorite things are playing video games, reading books, and listening to music. I spend most of my free time playing video games and I enjoy it a lot.</h2>
-<h2>I'd like to introduce some of my favorite writers and artists. My favorite author is a Japanese author named Yusuke Yamada and he's books hold my interests and surprise me.</h2>
-<h2>My favorite artists are Keina Suda, Kensi Yonezu, and YOASOBI and they all make amazing songs.<br><br>
+<h1>My favorite things to do in my free time</h1>
+<h2 id="abc">My favorite things are playing video games, reading books, and listening to music. I spend most of my free time playing video games and I enjoy it a lot.</h2>
+<h2 id="abc">I'd like to introduce some of my favorite writers and artists. My favorite author is a Japanese author named Yusuke Yamada and he's books hold my interests and surprise me.</h2>
+<h2 id="abc">My favorite artists are Keina Suda, Kensi Yonezu, and YOASOBI and they all make amazing songs.<br><br>
  
   <audio controls>
     <source src="meow.mp3">
@@ -123,8 +131,8 @@
   </video>
   
 
-  <p>Here is my <a href="vacation.html"><b id="abc">vacation</b></a><br></p>
+  <h1 id="123"><p>Here is my <a href="vacation.html"><b id="abc">vacation</b></a><br></p></h1>
   
-  Here is the <a href="schedule.html">schedule</a>
+  <h1 id="123">Here is the <a href="schedule.html">schedule</a></h1>
   </body>
 </html>
