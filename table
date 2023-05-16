@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <style>
+        .redbg {
+            background-color: red;
+        }
+        .bluebg {
+            background-color: blue;
+        }
+        </style>
+    </head>
+    <body>
+        <table width='100%' border='1px solid black' cellspacing='0'>
+            <caption>Table of Numbers</caption>
+            <tr>
+                <th>Number</th>
+                <th>Name</th>
+            </tr>
+            <tr>
+                <td class="redbg">1</td>
+                <td class="redbg">One</td>
+            </tr>
+            <tr>
+                <td class="bluebg">2</td>
+                <td class="bluebg">Two</td>
+            </tr>
+            <tr>
+                <td class="redbg">3</td>
+                <td class="redbg">Three</td>
+            </tr>
+            <tr>
+                <td class="bluebg">4</td>
+                <td class="bluebg">Four</td>
+            </tr>
+            <tr>
+                <td class="redbg">5</td>
+                <td class="redbg">Five</td>
+      </body>
+ </html>
