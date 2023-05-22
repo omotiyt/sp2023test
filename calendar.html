@@ -7,17 +7,23 @@
       width: 100%;
       background-color: white;
     }
-
     th, td {
       border: 1px solid #ddd;
       padding: 8px;
       text-align: center;
     }
-
+    .bg_orange {
+      background-color: salmon;
+    }
+    .bg_blue {
+      color: dodgerblue;
+    }
+    .bg_red {
+      color: crimson;
+    }
     th {
       background-color: #f2f2f2;
     }
-
     td:hover {
       background-color: #f5f5f5;
       cursor: pointer;
@@ -36,13 +42,13 @@
 
   <table>
     <tr>
-      <th>Sun</th>
+      <th id="bg_red">Sun</th>
       <th>Mon</th>
       <th>Tue</th>
       <th>Wed</th>
       <th>Thu</th>
       <th>Fri</th>
-      <th>Sat</th>
+      <th id="bg_blue">Sat</th>
     </tr>
     <tr>
       <td></td>
@@ -68,7 +74,7 @@
       <td>16</td>
       <td>17</td>
       <td>18</td>
-      <td>19</td>
+      <td id="bg_orange">19</td>
       <td>20</td>
     </tr>
     <tr>
